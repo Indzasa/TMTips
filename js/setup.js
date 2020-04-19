@@ -45,6 +45,9 @@ function generateHand() {
   document.getElementById("link").classList.remove("disabled-link");
 
   displayCards();
+
+  $(document.getElementById("get_tips_button")).fadeIn(0);
+
 }
 
 
