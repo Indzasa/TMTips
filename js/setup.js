@@ -46,6 +46,7 @@ function generateHand() {
 
   displayCards();
 
+  // display new button to get tips
   $(document.getElementById("get_tips_button")).fadeIn(0);
 
 }
