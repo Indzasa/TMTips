@@ -135,9 +135,11 @@ function displayCards() {
   document.getElementById("link").href = url;
 }
 
-
-
-
+  function getTips()
+  {
+    $(document.getElementById("hints")).fadeIn(0);
+    document.getElementById("hints").scrollIntoView({block: "center", behavior: "smooth"});
+  }
 
 
 /////////////////////////////////////////////////////////////////////////////
