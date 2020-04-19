@@ -34,6 +34,18 @@
     margin-left: 50px;
 }
 
+.hints {
+    display: inline-block;
+    width: 500px;
+    letter-spacing: 1px;
+    vertical-align: top;
+    font-family: Prototype;
+    margin-top: 0px;
+    line-height: 45px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
 /*project card div*/
 .filterDiv {
     display: none;
